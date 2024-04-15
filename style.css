@@ -8,12 +8,12 @@ body{
 
 h1{
     color: white;
-    font-size: 10rem;
+    font-size: 6rem;
 }
 
 .box{
-    padding-top: 5rem;
-    top: 15rem;
+    padding-top: 3rem;
+    top: 3rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -21,37 +21,37 @@ h1{
     align-items: center;
     justify-content: center;
     background-color: rgb(226, 226, 226);
-    height: 120rem;
-    width: 120rem;
+    height: 60rem;
+    width: 60rem;
     border-radius: 15px;
-    font-size: 10rem;
+    font-size: 5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border: 0.25rem solid black;
 }
 
 .button-28{
   appearance: none;
-  border: 0.75rem solid black;
+  border: 0.5rem solid black;
   border-radius: 15px;
   box-sizing: border-box;
   color: black;
   cursor: pointer;
   display: inline-block;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
-  min-height: 15rem;
+  margin-top: 1rem;
+  min-height: 6rem;
   min-width: 0;
   outline: none;
-  padding: 1rem 10rem;
+  padding: 1rem 1rem;
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50rem;
+  width: 25rem;
   will-change: transform;
 }
 
@@ -86,11 +86,11 @@ h1{
 }
 
 .dustin_p{
-    font-size: 7rem;
+    font-size: 3rem;
 }
 
 .shane_p{
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 a{
@@ -99,122 +99,15 @@ a{
     cursor: pointer;
 }
 
-
-
-
-@media screen and (max-width: 740px) and (min-width: 441px){
-
-    body{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        font-family: "Noto Sans", sans-serif;
-        background-image: linear-gradient( to right, yellow,red, blue);
-    }
-
-    h1{
-        color: white;
-        font-size: 2.55rem;
-    }
-
-    .box{
-        padding-top: 1rem;
-        top: 4.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(226, 226, 226);
-        height: 40rem;
-        width: 25rem;
-        border-radius: 15px;
-        font-size: 1.55rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border: 0.25rem solid black;
-    }
-    
-    .button-28{
-      appearance: none;
-      border: 0.30rem solid black;
-      border-radius: 15px;
-      box-sizing: border-box;
-      color: black;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 1.55rem;
-      font-weight: 600;
-      line-height: normal;
-      margin-top: 3.5rem;
-      min-height: 1rem;
-      min-width: 0;
-      outline: none;
-      padding: 1.1rem 1rem;
-      text-align: center;
-      text-decoration: none;
-      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      width: 15rem;
-      will-change: transform;
-    }
-    
-    .button-28:disabled {
-      pointer-events: none;
-    }
-    
-    .yellow:hover{
-        background-color: yellow;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .red:hover{
-        background-color: red;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .blue:hover{
-        background-color: rgb(0, 153, 255);
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .button-28:active {
-      box-shadow: none;
-      transform: translateY(0);
-    }
-    
-    img {
-        max-width:300px;
-        max-height:250px;
-        width: auto;
-        height: auto;
-    }
-
-    .dustin_p{
-        font-size: 1.5rem;
-    }
-    
-    .shane_p{
-        font-size: 1.5rem;
-    }
-    
-    a{
-        text-decoration: none;
-        color: inherit;
-        cursor: pointer;
-    }
-    
+img {
+    max-width:220px;
+    width: auto;
+    height: auto;
 }
 
-@media screen and (max-width: 1240px) and (min-width: 741px){
+
+
+@media screen and (max-width: 480px) and (min-width: 321px){
 
     body{
         text-align: center;
@@ -226,208 +119,95 @@ a{
 
     h1{
         color: white;
-        font-size: 2.55rem;
-    }
-
-    .box{
-        padding-top: 1rem;
-        top: 4.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(226, 226, 226);
-        height: 40rem;
-        width: 35rem;
-        border-radius: 15px;
-        font-size: 1.55rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border: 0.25rem solid black;
-    }
-    
-    .button-28{
-      appearance: none;
-      border: 0.30rem solid black;
-      border-radius: 15px;
-      box-sizing: border-box;
-      color: black;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 1.55rem;
-      font-weight: 600;
-      line-height: normal;
-      margin-top: 3.5rem;
-      min-height: 1rem;
-      min-width: 0;
-      outline: none;
-      padding: 1.1rem 1rem;
-      text-align: center;
-      text-decoration: none;
-      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      width: 15rem;
-      will-change: transform;
-    }
-    
-    .button-28:disabled {
-      pointer-events: none;
-    }
-    
-    .yellow:hover{
-        background-color: yellow;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .red:hover{
-        background-color: red;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .blue:hover{
-        background-color: rgb(0, 153, 255);
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .button-28:active {
-      box-shadow: none;
-      transform: translateY(0);
-    }
-    
-    img {
-        max-width:300px;
-        max-height:250px;
-        width: auto;
-        height: auto;
-    }
-
-    .dustin_p{
-        font-size: 1.5rem;
-    }
-    
-    .shane_p{
-        font-size: 1.5rem;
-    }
-    
-    a{
-        text-decoration: none;
-        color: inherit;
-        cursor: pointer;
-    }
-    
-}
-
-@media screen and (min-width: 1241px){
-
-    body{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        font-family: "Noto Sans", sans-serif;
-        background-image: linear-gradient( to right, yellow,red, blue);
-    }
-
-    h1{
-        color: white;
-        font-size: 4.55rem;
-    }
-
-    .box{
-        padding-top: 5rem;
-        top: 4.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(226, 226, 226);
-        height: 45rem;
-        width: 45rem;
-        border-radius: 15px;
-        font-size: 3.55rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border: 0.25rem solid black;
-    }
-    
-    .button-28{
-      appearance: none;
-      border: 0.30rem solid black;
-      border-radius: 15px;
-      box-sizing: border-box;
-      color: black;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 2.55rem;
-      font-weight: 600;
-      line-height: normal;
-      margin-top: 3.5rem;
-      min-height: 1rem;
-      min-width: 0;
-      outline: none;
-      padding: 1.1rem 1rem;
-      text-align: center;
-      text-decoration: none;
-      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      width: 20rem;
-      will-change: transform;
-    }
-    
-    .button-28:disabled {
-      pointer-events: none;
-    }
-    
-    .yellow:hover{
-        background-color: yellow;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .red:hover{
-        background-color: red;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .blue:hover{
-        background-color: rgb(0, 153, 255);
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
-    }
-    
-    .button-28:active {
-      box-shadow: none;
-      transform: translateY(0);
-    }
-    
-    img {
-        max-width:500px;
-        max-height:350px;
-        width: auto;
-        height: auto;
-    }
-
-    .dustin_p{
         font-size: 1.75rem;
     }
+
+    .box{
+        padding-top: 1rem;
+        top: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(226, 226, 226);
+        height: 35rem;
+        width: 15rem;
+        border-radius: 15px;
+        font-size: 1.35rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border: 0.25rem solid black;
+    }
+    
+    .button-28{
+      appearance: none;
+      border: 0.30rem solid black;
+      border-radius: 15px;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 2.5rem;
+      min-height: 1rem;
+      min-width: 0;
+      outline: none;
+      padding: 0.1rem 0.1rem;
+      text-align: center;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 15rem;
+      will-change: transform;
+    }
+    
+    .button-28:disabled {
+      pointer-events: none;
+    }
+    
+    .yellow:hover{
+        background-color: yellow;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .red:hover{
+        background-color: red;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .blue:hover{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .button-28:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+    
+    img {
+        max-width:100px;
+        width: auto;
+        height: auto;
+    }
+
+    .dustin_p{
+        font-size: 1.5rem;
+    }
     
     .shane_p{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     
     a{
@@ -436,5 +216,226 @@ a{
         cursor: pointer;
     }
     
+}
+
+@media screen and (max-width: 720px) and (min-width: 481px){
+
+    body{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: "Noto Sans", sans-serif;
+        background-image: linear-gradient( to right, yellow,red, blue);
+    }
+
+    h1{
+        color: white;
+        font-size: 1.85rem;
+    }
+
+    .box{
+        padding-top: 1rem;
+        top: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(226, 226, 226);
+        height: 35rem;
+        width: 25rem;
+        border-radius: 15px;
+        font-size: 2.35rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border: 0.25rem solid black;
+    }
+    
+    .button-28{
+      appearance: none;
+      border: 0.30rem solid black;
+      border-radius: 15px;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 2.25rem;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 2.5rem;
+      min-height: 1rem;
+      min-width: 0;
+      outline: none;
+      padding: 0.1rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 15rem;
+      will-change: transform;
+    }
+    
+    .button-28:disabled {
+      pointer-events: none;
+    }
+    
+    .yellow:hover{
+        background-color: yellow;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .red:hover{
+        background-color: red;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .blue:hover{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .button-28:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+    
+    img {
+        max-width:100px;
+        width: auto;
+        height: auto;
+    }
+
+    .dustin_p{
+        font-size: 1.5rem;
+    }
+    
+    .shane_p{
+        font-size: 1.45rem;
+    }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) and (min-width: 721px){
+
+    body{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: "Noto Sans", sans-serif;
+        background-image: linear-gradient( to right, yellow,red, blue);
+    }
+
+    h1{
+        color: white;
+        font-size: 2.85rem;
+    }
+
+    .box{
+        padding-top: 1rem;
+        top: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(226, 226, 226);
+        height: 35rem;
+        width: 35rem;
+        border-radius: 15px;
+        font-size: 3.35rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border: 0.25rem solid black;
+    }
+    
+    .button-28{
+      appearance: none;
+      border: 0.30rem solid black;
+      border-radius: 15px;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 2.25rem;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 2.5rem;
+      min-height: 1rem;
+      min-width: 0;
+      outline: none;
+      padding: 1rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 15rem;
+      will-change: transform;
+    }
+    
+    .button-28:disabled {
+      pointer-events: none;
+    }
+    
+    .yellow:hover{
+        background-color: yellow;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .red:hover{
+        background-color: red;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .blue:hover{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .button-28:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+    
+    img {
+        max-width:100px;
+        width: auto;
+        height: auto;
+    }
+
+    .dustin_p{
+        font-size: 1.85rem;
+    }
+    
+    .shane_p{
+        font-size: 1.55rem;
+    }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
 }
 
