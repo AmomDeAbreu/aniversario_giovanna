@@ -132,7 +132,7 @@ img {
         align-items: center;
         justify-content: center;
         background-color: rgb(226, 226, 226);
-        height: 35rem;
+        height: 25rem;
         width: 15rem;
         border-radius: 15px;
         font-size: 1.35rem;
@@ -148,11 +148,11 @@ img {
       color: black;
       cursor: pointer;
       display: inline-block;
-      font-size: 1.25rem;
+      font-size: 0.85rem;
       font-weight: 600;
       line-height: normal;
       margin-top: 2.5rem;
-      min-height: 1rem;
+      min-height: 0.5rem;
       min-width: 0;
       outline: none;
       padding: 0.1rem 0.1rem;
@@ -162,7 +162,7 @@ img {
       user-select: none;
       -webkit-user-select: none;
       touch-action: manipulation;
-      width: 15rem;
+      width: 6rem;
       will-change: transform;
     }
     
@@ -203,11 +203,11 @@ img {
     }
 
     .dustin_p{
-        font-size: 1.5rem;
+        font-size: 0.95rem;
     }
     
     .shane_p{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     
     a{
@@ -259,7 +259,7 @@ img {
       color: black;
       cursor: pointer;
       display: inline-block;
-      font-size: 2.25rem;
+      font-size: 1.45rem;
       font-weight: 600;
       line-height: normal;
       margin-top: 2.5rem;
@@ -273,7 +273,7 @@ img {
       user-select: none;
       -webkit-user-select: none;
       touch-action: manipulation;
-      width: 15rem;
+      width: 12rem;
       will-change: transform;
     }
     
